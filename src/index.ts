@@ -1,2 +1,2 @@
-import useToaster from "./hooks/useToast";
+import useToaster from "./hooks/useToaster";
 export default useToaster;``
