@@ -1,0 +1,44 @@
+{
+  "name": "@milanthapa/react-toaster",
+  "version": "1.0.0",
+  "description": "react toast popup package",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Milanthapa12/react-toaster.git"
+  },
+  "keywords": [
+    "react",
+    "toaster"
+  ],
+  "author": "Milan Thapa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Milanthapa12/react-toaster/issues"
+  },
+  "homepage": "https://github.com/Milanthapa12/react-toaster#readme",
+  "devDependencies": {
+    "react": "^19.1.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.1.4",
+    "@types/uuid": "^10.0.0",
+    "react-icons": "^5.2.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "uuid": "^10.0.0"
+  }
+}
